@@ -22,6 +22,8 @@ nav {
 }
 
 .btn-primary {
+    height: 64px;
+    width: 200px;
     font-weight: bold;
     color: #FFFFFF;
     background-color: #FD6E0A;
@@ -30,10 +32,12 @@ nav {
     border: none;
 }
 .btn-primary-2 {
+    height: 64px;
+    width: 160px;
     font-weight: bold;
     font-size: 20px;
     color: #FD6E0A;
-    border: 2px solid #F97316;
+    border: 1px solid #F97316;
     padding: 18px 35px;   
     border-radius: 5px;
     border: none;
