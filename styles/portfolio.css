@@ -5,7 +5,7 @@ nav {
 
 /* Shared Style */
 
-.secendary-bg {
+.secondary-bg {
     background-color: #FFF8F3;
 }
 .text-primary{
@@ -209,4 +209,32 @@ main section {
 
 .resume-download-cv {
     margin-top: 50px;
+}
+
+/* Footer style */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+    /* flex: 1; */
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    width: 461px;
+    border: none;
+    display: block;
+    padding: 10px 30px;
+    margin: 24px 0;
+}
+
+.icons {
+    display: flex;
+    gap: 5px;
 }
