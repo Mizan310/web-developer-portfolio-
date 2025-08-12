@@ -233,7 +233,7 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     width: 461px;
     border: none;
     display: block;
-    padding: 10px 30px;
+    padding: 10px 10px;
     margin: 24px 0;
 }
 
@@ -248,10 +248,10 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     display: none;
 }
 @media screen and (max-width: 576px) {
-    .skills-container, .resume-container, footer {
+    .skills-container, .resume-container, footer, .about-items {
         flex-direction: column;
     }
-    footer {
+    footer, .about {
         padding: 20px;
     }
     .footer-column {
@@ -260,4 +260,9 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     footer input[type="text"], footer input[type="email"], footer textarea {
         width: calc(100% - 40px);
     }
+    /* .about-items {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    } */
 }
