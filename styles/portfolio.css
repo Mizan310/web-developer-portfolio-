@@ -65,7 +65,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto; /* adjust margin as needed */ 
+    margin: 0 35px 0 200px;
+    /* margin: 0 auto;  */
+    /* adjust margin as needed */ 
     max-width: 1540px;
 }
 
@@ -106,10 +108,10 @@ nav li a {
 .banner {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    max-width: 1540px;
-    margin: 0 auto;
-    /* margin: 0 35px 0 200px; */
+    /* align-items: center; */
+    /* max-width: 1540px; */
+    /* margin: 0 auto; */
+    margin: 0 35px 0 200px;
 }
 
 .banner-content {
@@ -248,16 +250,45 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     display: none;
 }
 @media screen and (max-width: 576px) {
-    .skills-container, .resume-container, footer, .about-items {
+    .banner, 
+    .skills-container, 
+    .resume-container, 
+    nav,
+    nav > ul,
+    footer, 
+    .about-items {
         flex-direction: column;
     }
+
+    nav > ul {
+        gap: 20px;
+    }
+
+    .btn-primary {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .banner {
+        margin: 20px;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    .banner-profile-pic {
+        width: 100%;
+    }
+
     footer, .about {
         padding: 20px;
     }
     .footer-column {
         width: 100%;
     }
-    footer input[type="text"], footer input[type="email"], footer textarea {
+    footer input[type="text"], 
+    footer input[type="email"], 
+    footer textarea {
         width: calc(100% - 40px);
     }
     .about-items {
